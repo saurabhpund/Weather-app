@@ -143,7 +143,7 @@ body {
 /* **************** Media Query *********************************** */
 @media (max-width: 425px) {
   body {
-    height: 100vh;
+    height: 800px;
   }
   .container {
     height: 650px;
