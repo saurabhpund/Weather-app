@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App || Using Weather API</title>
+  </head>
+  <body>
+    <div class="container">
+        <form class="input-field">
+          <input type="text" id="city-input" placeholder="Search City..." required
+          autofocus/>
+          <button id="submit" onclick="getData()">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <div class="main">
+          <img src="" id="icon" alt="Weather Icon" />
+          <h1 class="temp"><span id="temp"></span><sup>°C</sup></h1>
+          <h2 class="city">
+            <span id="city-name"></span> <span id="country"></span>
+          </h2>
+          <h3 id="condition"></h3>
+        </div>
+        <div class="details">
+            <p class="points">Humidity <span id="humidity"></span></p>
+            <p class="points">Pressure <span id="pressure"></span></p>
+            <p class="points">Visibility <span id="visibility"></span></p>
+            <p class="points">Day <span id="max"></span></p>
+            <p class="points">Night <span id="min"></span></p>
+        </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
