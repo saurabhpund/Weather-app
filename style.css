@@ -146,7 +146,7 @@ body {
     height: 100vh;
   }
   .container {
-    height: 40rem;
+    height: 650px;
     background: rgba(170, 170, 170, 0.2);
   }
   .container .details {
