@@ -46,7 +46,7 @@ function getData() {
       } else {
         switch (req.status) {
           case 404:
-            alert(req.status);
+            alert("Please check the spelling");
             break;
 
           default:
