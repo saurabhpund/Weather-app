@@ -131,7 +131,7 @@ function icon(cond, state) {
           return "./Images/moon/ThunderStorm.png";
 
         default:
-          return "./Images/moon/Clear.png";
+          return "./Images/moon/clear.png";
       }
     }
   };
